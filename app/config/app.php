@@ -122,7 +122,8 @@ return array(
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
 		'Illuminate\Workbench\WorkbenchServiceProvider',
-		'TwigBridge\ServiceProvider'
+		'TwigBridge\ServiceProvider',
+		'MooglePlay\Provider\MooglePlayServiceProvider'
 
 	),
 
