@@ -132,8 +132,8 @@ class PrimarySeeder extends Seeder
 		foreach(range(1, rand(1, SELF::MAX_SONG_PLAYS)) as $songPlay)
 		{
 			SongPlay::create([
-				'user_id'       => $this->faker->randomElement($songIds),
-				'song_id'       => $this->faker->randomElement($userIds),
+				'user_id'       => $this->faker->randomElement($userIds),
+				'song_id'       => $this->faker->randomElement($songIds),
 				'started_at'    => $this->faker->dateTimeBetween('-1 years', 'now')
 			]);
 		}
