@@ -4,12 +4,12 @@ Moogle Play is a fictitious music experience app designed to demonstrate profici
 
 ## Install
 
--Clone repo into desired directory on host machine
--Fire up VM (preferably Homestead) with configured paths to project
--Copy /environment.sample.php to /environment.php and edit values
--Copy /.env.environment.sample.php to .env.[environment-name].php and edit values
--Navigate to install folder inside the VM
--Run the following commands:
+* Clone repo into desired directory on host machine
+* Fire up VM (preferably Homestead) with configured paths to project
+* Copy /environment.sample.php to /environment.php and edit values
+* Copy /.env.environment.sample.php to .env.[environment-name].php and edit values
+* Navigate to install folder inside the VM
+* Run the following commands:
 
 ``` bash
 $ composer install

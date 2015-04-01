@@ -14,3 +14,4 @@ Route::group( ['prefix' => 'api'], function() {
 Route::get('/userWithModel', 'UserController@showWithModel');
 Route::get('/userWithRepository', 'UserController@showWithRepository');
 Route::get('/userWithService', 'UserController@showWithService');
+Route::get('/user/{userId}/songs', 'UserController@songsByUser');

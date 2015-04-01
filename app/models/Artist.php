@@ -10,4 +10,15 @@ class Artist extends Eloquent
 
 	protected $dates = ['deleted_at'];
 
+	protected $guarded =['*'];
+
+	public function albums()
+	{
+		return $this->hasMany('Album');
+	}
+
+	public function songs()
+	{
+		return $this->hasManyThrough('Song', 'Album');
+	}
 }
